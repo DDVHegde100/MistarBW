@@ -5,16 +5,16 @@
         <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet'>
         <style>
 :root {
-  --color-black: #000;
-  --color-gray: #f0f0f0;
-  --color-white: #fff;
+  --color-black: #747474;
+  --color-gray: #747474;
+  --color-white: #747474;
   --color-blue: #5e5e5e;
   --color-dark-blue: #747474;
-  --color-red: #e63838;
-  --color-dark-red: #a22929;
-  --color-yellow: #ffea64;
-  --color-dark-yellow: #fddd50;
-  --color-peach: #fc9;
+  --color-red: #747474;
+  --color-dark-red: #747474;
+  --color-yellow: #747474;
+  --color-dark-yellow: #747474;
+  --color-peach: #747474;
   --font-family: 'Rubik', sans-serif;
   --font-size-h1: 7.5rem;
   --font-size-h2: 2.5rem;
@@ -139,10 +139,36 @@ body {
   font-weight: var(--font-weight-regular);
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(85deg, #E0E0E0, #B0BEC5);
+  background-image: -webkit-radial-gradient(circle, hsla(164, 100%, 85%, 1) 0%, hsla(227, 100%, 74%, 1) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
+  background: black;
+}
+
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+
+.info {
+  color: white;
+  font:1em/1 sans-serif;
+  text-align: center;
+}
+
+.info a{
+  color: white;
+}
+
+svg{
+  width: 600px;
+  height: 120px;
+  display: block;
+  position: relative;
+  overflow: hidden; 
+  margin: 0 auto;
+  background: black;
 }
 
 
